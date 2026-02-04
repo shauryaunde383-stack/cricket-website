@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cricket | The Gentleman’s Game</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0b8457, #1abc9c);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0b8457;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      color: #0b8457;
+      margin-top: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #e8f8f3;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #0b8457;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cricket</h1>
+    <p>The Gentleman’s Game Loved Around the World</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#formats">Formats</a>
+    <a href="#players">Famous Players</a>
+    <a href="#rules">Basic Rules</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="section" id="about">
+      <h2>About Cricket</h2>
+      <p>
+        Cricket is a popular sport played between two teams of eleven players each. 
+        It originated in England and is now widely played in countries like India, Australia, England, Pakistan, and South Africa.
+      </p>
+    </div>
+
+    <div class="section" id="formats">
+      <h2>Formats of Cricket</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Test Cricket</h3>
+          <p>The longest format of cricket, played over five days.</p>
+        </div>
+        <div class="card">
+          <h3>One Day Internationals (ODI)</h3>
+          <p>Each team plays 50 overs. Balanced between patience and excitement.</p>
+        </div>
+        <div class="card">
+          <h3>T20 Cricket</h3>
+          <p>The shortest and most exciting format, with 20 overs per team.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="players">
+      <h2>Famous Cricket Players</h2>
+      <ul>
+        <li>Sachin Tendulkar</li>
+        <li>Virat Kohli</li>
+        <li>MS Dhoni</li>
+        <li>Sir Don Bradman</li>
+        <li>AB de Villiers</li>
+      </ul>
+    </div>
+
+    <div class="section" id="rules">
+      <h2>Basic Rules</h2>
+      <ol>
+        <li>Each team has 11 players.</li>
+        <li>One team bats while the other bowls and fields.</li>
+        <li>Runs are scored by hitting the ball and running between wickets.</li>
+        <li>The team with the most runs wins.</li>
+      </ol>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Cricket Website | Made for Learning</p>
+  </footer>
+
+</body>
+</html>
+
